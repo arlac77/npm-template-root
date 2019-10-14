@@ -1,13 +1,17 @@
 {
   "template": {
-    "usedBy": [
-    ],
+    "usedBy": [],
     "files": [
       {
         "merger": "Readme",
         "pattern": "README.md",
         "options": {
           "badges": [
+            {
+              "name": "npm",
+              "icon": "https://img.shields.io/npm/v/{{name}}.svg",
+              "url": "https://www.npmjs.com/package/{{name}}"
+            },
             {
               "name": "License",
               "icon": "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg",
