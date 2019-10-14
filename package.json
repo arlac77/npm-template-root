@@ -1,1 +1,21 @@
-{}
+{
+  "template": {
+    "usedBy": [
+    ],
+    "files": [
+      {
+        "merger": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+            {
+              "name": "License",
+              "icon": "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg",
+              "url": "https://opensource.org/licenses/BSD-3-Clause"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
