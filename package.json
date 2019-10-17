@@ -1,12 +1,32 @@
 {
+  "version": "0.0.0-semantic-release",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=12.12.0"
+  },
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+
   "template": {
     "usedBy": [],
     "files": [
+      {
+        "merger": "License",
+        "pattern": "LICENSE"
+      },
       {
         "merger": "Readme",
         "pattern": "README.md",
         "options": {
           "badges": [
+            {
+              "merger": "ReplaceIfEmpty",
+              "pattern": "**/*"
+            },
             {
               "name": "npm",
               "icon": "https://img.shields.io/npm/v/{{name}}.svg",
