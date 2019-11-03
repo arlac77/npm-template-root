@@ -36,6 +36,11 @@
               "name": "License",
               "icon": "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg",
               "url": "https://opensource.org/licenses/BSD-3-Clause"
+            },
+            {
+              "name": "minified size",
+              "icon": "https://badgen.net/bundlephobia/min/{{name}}",
+              "url": "https://bundlephobia.com/result?p={{name}}"
             }
           ]
         }
