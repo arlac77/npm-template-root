@@ -15,10 +15,6 @@
     "usedBy": [],
     "files": [
       {
-        "merger": "ReplaceIfEmpty",
-        "pattern": "**/*"
-      },
-      {
         "merger": "License",
         "pattern": "LICENSE"
       },
@@ -54,6 +50,10 @@
             }
           ]
         }
+      },
+      {
+        "merger": "ReplaceIfEmpty",
+        "pattern": "**/*"
       }
     ]
   }
