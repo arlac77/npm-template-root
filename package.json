@@ -43,6 +43,11 @@
               "name": "minified size",
               "icon": "https://badgen.net/bundlephobia/min/{{name}}",
               "url": "https://bundlephobia.com/result?p={{name}}"
+            },
+            {
+              "name": "GitHub Issues",
+              "icon": "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
+              "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
             }
           ]
         }
