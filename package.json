@@ -45,6 +45,11 @@
               "url": "https://bundlephobia.com/result?p={{name}}"
             },
             {
+              "name": "downloads",
+              "icon": "http://img.shields.io/npm/dm/{{name}}.svg?style=flat-square",
+              "url": "https://npmjs.org/package/{{name}}"
+            },
+            {
               "name": "GitHub Issues",
               "icon": "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
               "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
