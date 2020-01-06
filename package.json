@@ -1,4 +1,6 @@
 {
+  "name": "{{name}}",
+  "description": "{{description}}",
   "version": "0.0.0-semantic-release",
   "license": "BSD-2-Clause",
   "engines": {
