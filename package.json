@@ -15,7 +15,17 @@
     "files": [
       {
         "merger": "Package",
-        "pattern": "**/package.json"
+        "pattern": "**/package.json",
+        "options": {
+          "keywords": {
+            "auth-provider": "auth-provider",
+            "repository-provider.+": "repository-provider",
+            "^kronos-interceptor.+": "kronos-interceptor",
+            "^kronos-service-(?!manager)": "kronos-service",
+            "^kronos-step.+": "kronos-step",
+            "^kronos-adapter.+": "kronos-step"
+          }
+        }
       },
       {
         "merger": "Readme",
