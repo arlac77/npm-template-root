@@ -3,9 +3,6 @@
   "description": "{{description}}",
   "version": "0.0.0-semantic-release",
   "license": "BSD-2-Clause",
-  "engines": {
-    "node": ">=12.14.1"
-  },
   "template": {
     "usedBy": [
       "arlac77/npm-package-template",
@@ -13,6 +10,18 @@
       "arlac77/npm-package-template-svelte-app"
     ],
     "files": [
+      {
+        "merger": "Package",
+        "pattern": "**/package.json",
+        "options": {
+          "keywords": {
+            "auth-provider": "auth-provider",
+            "repository-provider.+": "repository-provider",
+            "^kronos-interceptor.+": "kronos-interceptor",
+            "^kronos-service-(?!manager)": "kronos-service"
+          }
+        }
+      },
       {
         "merger": "Readme",
         "pattern": "README.md",
@@ -27,6 +36,11 @@
               "name": "License",
               "icon": "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg",
               "url": "https://opensource.org/licenses/BSD-3-Clause"
+            },
+            {
+              "name": "install size",
+              "icon": "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
+              "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
             },
             {
               "name": "minified size",
