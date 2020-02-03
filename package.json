@@ -65,17 +65,17 @@
         "pattern": "LICENSE"
       },
       {
-        "merger": "MergeAndRemoveLineSet",
+        "merger": "MergeLineSet",
         "pattern": ".gitignore",
         "options": {
-          "message": "chore(git): update {{entry.name}} from template"
+          "messagePrefix": "chore(git): "
         }
       },
       {
-        "merger": "MergeAndRemoveLineSet",
+        "merger": "MergeLineSet",
         "pattern": ".npmignore",
         "options": {
-          "message": "chore(npm): update {{entry.name}} from template"
+          "messagePrefix": "chore(npm): "
         }
       },
       {
