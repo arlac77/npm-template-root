@@ -30,32 +30,38 @@
             {
               "name": "npm",
               "icon": "https://img.shields.io/npm/v/{{name}}.svg",
-              "url": "https://www.npmjs.com/package/{{name}}"
+              "url": "https://www.npmjs.com/package/{{name}}",
+              "order" : 0.1
             },
             {
               "name": "License",
               "icon": "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg",
-              "url": "https://opensource.org/licenses/BSD-3-Clause"
+              "url": "https://opensource.org/licenses/BSD-3-Clause",
+              "order" : 0.1
             },
             {
               "name": "install size",
               "icon": "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
-              "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
+              "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}",
+              "order" : 0.1
             },
             {
               "name": "minified size",
               "icon": "https://badgen.net/bundlephobia/min/{{name}}",
-              "url": "https://bundlephobia.com/result?p={{name}}"
+              "url": "https://bundlephobia.com/result?p={{name}}",
+              "order" : 0.1
             },
             {
               "name": "downloads",
               "icon": "http://img.shields.io/npm/dm/{{name}}.svg?style=flat-square",
-              "url": "https://npmjs.org/package/{{name}}"
+              "url": "https://npmjs.org/package/{{name}}",
+              "order" : 0.1
             },
             {
               "name": "GitHub Issues",
               "icon": "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
-              "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
+              "url": "https://github.com/{{github.user}}/{{github.repo}}/issues",
+              "order" : 0.1
             }
           ]
         }
