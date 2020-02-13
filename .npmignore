@@ -1,10 +1,10 @@
--rollup.config.test.js
--rollup.config.js
--.npmrc
--node_modules
--.nyc_output
--.npmignore
 -.gitignore
--coverage
 -.markdown-doctest-setup.js
+-.npmignore
+-.npmrc
+-.nyc_output
 -SUMMARY.md
+-coverage
+-node_modules
+-rollup.config.js
+-rollup.config.test.js
