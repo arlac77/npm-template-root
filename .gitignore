@@ -3,3 +3,6 @@
 -dist
 -out
 -package-lock.json
+build
+.DS_Store
+node_modules
