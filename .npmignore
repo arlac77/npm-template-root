@@ -6,3 +6,6 @@
 -SUMMARY.md
 -coverage
 -node_modules
+build
+tests
+doc
