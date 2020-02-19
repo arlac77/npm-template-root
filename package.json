@@ -9,6 +9,9 @@
       "arlac77/npm-package-template-esm",
       "arlac77/npm-package-template-svelte-app"
     ],
+    "properties": {
+      "node_version" : "12.16.1"
+    },
     "files": [
       {
         "merger": "Package",
