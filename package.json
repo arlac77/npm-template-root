@@ -7,7 +7,9 @@
     "usedBy": [
       "arlac77/npm-package-template",
       "arlac77/npm-package-template-esm",
-      "arlac77/npm-package-template-svelte-app"
+      "arlac77/npm-package-template-web-app",
+      "arlac77/npm-package-template-kronos-app",
+      "arlac77/npm-package-template-kronos-module"
     ],
     "properties": {
       "node_version" : "12.16.1"
