@@ -1,11 +1,3 @@
--.gitignore
--.markdown-doctest-setup.js
--.npmignore
--.npmrc
--.nyc_output
--SUMMARY.md
--coverage
--node_modules
 build
 tests
 doc
@@ -14,3 +6,12 @@ doc
 .tmp
 .test
 .vscode
+
+-.gitignore
+-.markdown-doctest-setup.js
+-.npmignore
+-.npmrc
+-.nyc_output
+-SUMMARY.md
+-coverage
+-node_modules
