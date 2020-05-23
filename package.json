@@ -3,9 +3,6 @@
   "description": "{{description}}",
   "version": "0.0.0-semantic-release",
   "license": "BSD-2-Clause",
-  "engines": {
-    "node": ">={{node_version}}"
-  },
   "template": {
     "usedBy": [
       "arlac77/template-cli-app",
