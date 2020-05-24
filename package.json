@@ -2,7 +2,6 @@
   "name": "{{name}}",
   "description": "{{description}}",
   "version": "0.0.0-semantic-release",
-  "license": "BSD-2-Clause",
   "template": {
     "usedBy": [
       "arlac77/template-cli-app",
