@@ -8,7 +8,7 @@
       "arlac77/template-esm",
       "arlac77/template-web-app",
       "arlac77/template-kronos-app",
-      "arlac77/template-kronos-module"
+      "arlac77/template-kronos-component"
     ],
     "properties": {
       "node_version" : "12.17.0"
