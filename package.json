@@ -2,9 +2,6 @@
   "name": "{{fullName}}",
   "description": "{{description}}",
   "version": "0.0.0-semantic-release",
-  "exports": {
-    "./": "--delete-- ./"
-  },
   "template": {
     "usedBy": [
       "arlac77/template-node-app",
@@ -13,7 +10,7 @@
       "arlac77/template-kronos-component"
     ],
     "properties": {
-      "node_version" : "12.17.0"
+      "node_version" : "12.18.0"
     },
     "mergers": [
       {
