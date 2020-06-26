@@ -6,6 +6,7 @@ doc
 .tmp
 .test
 .vscode
+.github
 
 -.gitignore
 -.markdown-doctest-setup.js
