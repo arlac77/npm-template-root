@@ -7,8 +7,8 @@ node_modules
 .test
 .tmp
 
--.nyc_output
--coverage
--dist
--out
--package-lock.json
+--delete-- .nyc_output
+--delete-- coverage
+--delete-- dist
+--delete-- out
+--delete-- package-lock.json
