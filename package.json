@@ -15,7 +15,7 @@
     "mergers": [
       {
         "type": "Package",
-        "pattern": "**/package.json",
+        "pattern": "package.json",
         "options": {
           "keywords": {
             "auth-provider": "auth-provider",
