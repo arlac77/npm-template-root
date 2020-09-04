@@ -6,7 +6,6 @@ node_modules
 *.node
 .test
 .tmp
-
 --delete-- .nyc_output
 --delete-- coverage
 --delete-- dist
