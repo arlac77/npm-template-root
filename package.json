@@ -72,7 +72,7 @@
         "pattern": ".gitignore",
         "options": {
           "messagePrefix": "chore(git): ",
-          "defaultIgnore": [
+          "ignore": [
             ""
           ]
         }
@@ -82,7 +82,7 @@
         "pattern": ".npmignore",
         "options": {
           "messagePrefix": "chore(npm): ",
-          "defaultIgnore": [
+          "ignore": [
             "",
             ".*.swp",
             "._*",
