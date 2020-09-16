@@ -7,7 +7,6 @@ doc
 .test
 .vscode
 .github
-
 -.gitignore
 -.markdown-doctest-setup.js
 -.npmignore
