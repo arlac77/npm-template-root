@@ -10,7 +10,7 @@
       "arlac77/template-kronos-component"
     ],
     "properties": {
-      "node_version" : "12.18.4"
+      "node_version" : "14.12.0"
     },
     "mergers": [
       {
