@@ -4,14 +4,15 @@
   "version": "0.0.0-semantic-release",
   "template": {
     "usedBy": [
-      "arlac77/template-xslt",
+      "arlac77/profile",
+      "arlac77/template-kronos-app",
+      "arlac77/template-kronos-component",
       "arlac77/template-node-app",
       "arlac77/template-web-app",
-      "arlac77/template-kronos-app",
-      "arlac77/template-kronos-component"
+      "arlac77/template-xslt"
     ],
     "properties": {
-      "node_version" : "14.14.0"
+      "node_version": "14.14.0"
     },
     "mergers": [
       {
