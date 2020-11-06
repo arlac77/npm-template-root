@@ -9,7 +9,8 @@
       "arlac77/template-kronos-component",
       "arlac77/template-node-app",
       "arlac77/template-web-app",
-      "arlac77/template-xslt"
+      "arlac77/template-xslt",
+      "bitdiver/model"
     ],
     "properties": {
       "node_version": "14.15.0"
