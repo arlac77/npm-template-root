@@ -1,4 +1,4 @@
-# {{name}}
+# {{fullName}}
 
 {{description}}
 
@@ -11,7 +11,7 @@
 With [npm](http://npmjs.org) do:
 
 ```shell
-npm install {{name}}
+npm install {{fullName}}
 ```
 
 # license
