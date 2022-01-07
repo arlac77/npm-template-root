@@ -1,13 +1,10 @@
 build
 .DS_Store
-node_modules
+./node_modules/**
 *.log
 *.dump
 *.node
 .test
 .tmp
---delete-- .nyc_output
---delete-- coverage
---delete-- dist
---delete-- out
---delete-- package-lock.json
+
+--delete-- node_modules
