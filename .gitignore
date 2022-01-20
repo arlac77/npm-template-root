@@ -7,6 +7,3 @@ build
 .test
 .tmp
 
---delete-- node_modules
---delete-- ./node_modules/**
-
