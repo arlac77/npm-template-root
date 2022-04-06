@@ -14,9 +14,6 @@
       "arlac77/template-web-app",
       "arlac77/template-xslt"
     ],
-    "properties": {
-      "node_version": "14.19.0"
-    },
     "mergers": [
       {
         "type": "Package",
