@@ -16,18 +16,6 @@
     ],
     "mergers": [
       {
-        "type": "Package",
-        "pattern": "package.json",
-        "options": {
-          "keywords": {
-            "auth-provider": "auth-provider",
-            "repository-provider.+": "repository-provider",
-            "interceptor.+": "kronos-interceptor",
-            "service-": "kronos-service"
-          }
-        }
-      },
-      {
         "type": "Readme",
         "pattern": "README.md",
         "options": {
