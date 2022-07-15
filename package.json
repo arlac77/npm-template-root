@@ -12,6 +12,7 @@
       "arlac77/template-kronos-component",
       "arlac77/template-node-app",
       "arlac77/template-web-app",
+      "arlac77/temlate-web-component",
       "arlac77/template-xslt"
     ],
     "mergers": [
