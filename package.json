@@ -1,7 +1,6 @@
 {
   "name": "{{fullName}}",
   "description": "{{description}}",
-  "version": "0.0.0-semantic-release",
   "template": {
     "inheritFrom": [
       "arlac77/template-npm"
