@@ -1,6 +1,4 @@
 {
-  "name": "{{fullName}}",
-  "description": "{{description}}",
   "template": {
     "inheritFrom": [
       "arlac77/template-npm"
