@@ -1,8 +1,5 @@
 {
   "template": {
-    "inheritFrom": [
-      "arlac77/template-npm"
-    ],
     "usedBy": [
       "arlac77/profile",
       "arlac77/template-kronos-app",
